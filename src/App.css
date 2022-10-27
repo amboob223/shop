@@ -1,11 +1,29 @@
-.cardC{
-  width:40%;
+.cardC {
+  width: 150px;
   background-color: blue;
   text-align: center;
 
+  height: 100%;
+
 }
 
-.cardC>img{
-  width:80%;
- 
+.cardC>img {
+  width: 80%;
+  height: 200px;
+
+}
+
+.cardC>h3 {
+  margin: 2%;
+}
+
+
+.mis {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.cardC>button {
+  margin: 20px;
 }
